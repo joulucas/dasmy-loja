@@ -1,0 +1,29 @@
+table{
+  width: 100%;
+  border: 1px solid black;
+
+}
+
+.edit{
+  margin: 10px;
+}
+
+.delete> i{
+  color:red;
+}
+
+.edit > i {
+  color: yellow;
+}
+
+
+.example-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.example-margin {
+  margin: 0 10px;
+}

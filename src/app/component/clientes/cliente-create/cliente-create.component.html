@@ -1,0 +1,19 @@
+<mat-card>
+  <mat-card-title>Novo Cliente</mat-card-title>
+    <form>
+      <mat-form-field>
+          <input matInput placeholder="Nome" [(ngModel)]="cliente.nome" name="nome">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Data Nascimento"[(ngModel)]="cliente.dastNasc" name="dastNasc" type="date">
+    </mat-form-field>
+  </form>
+  <button mat-stroked-button	 (click)="createCliente()" color="primary">
+    Salvar
+  </button>
+
+  <button mat-stroked-button	 (click)="cancel()" color="warn">
+    Cancelar
+  </button>
+</mat-card>
